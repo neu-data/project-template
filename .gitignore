@@ -1,0 +1,51 @@
+# ---- Data: never commit ----
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.sav
+*.dta
+*.sas7bdat
+*.xlsx
+*.xls
+*.rds
+*.RData
+*.parquet
+
+# ---- Secrets ----
+.env
+.Renviron
+*.pem
+*.key
+credentials*
+
+# ---- R ----
+.Rproj.user/
+.Rhistory
+.RDataTmp
+renv/library/
+renv/staging/
+*_cache/
+*_files/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# ---- Quarto / reports ----
+/.quarto/
+reports/*.html
+reports/*.pdf
+reports/*.docx
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
